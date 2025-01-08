@@ -29,5 +29,5 @@ and Stripe integration for secure payments and subscriptions.
 
 Server Bash to update all code:
 
-cd /var/www/infiniteskins
-git pull origin main
+- cd /var/www/infiniteskins
+- git pull origin main
