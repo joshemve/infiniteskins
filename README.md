@@ -27,7 +27,25 @@ and Stripe integration for secure payments and subscriptions.
    ```bash
    git clone https://github.com/your-username/infiniteskins.git
 
-Server Bash to update all code:
+## Directory
+
+infiniteskins/
+│
+├── app/
+│   ├── templates/        # HTML files
+│   ├── static/           # CSS, JS, images
+│   │   ├── css/          # CSS files
+│   │   ├── js/           # JavaScript files
+│   │   └── images/       # Skin pack images
+│   ├── __init__.py       # Flask app setup
+│   ├── routes.py         # Flask routes
+│   └── models.py         # Database models
+│
+├── main.py               # Entry point for the app
+├── requirements.txt      # Python dependencies
+└── README.md             # Project overview
+
+## Server Bash to update all code:
 
 - cd /var/www/infiniteskins
 - git pull origin main
