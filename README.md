@@ -26,3 +26,8 @@ and Stripe integration for secure payments and subscriptions.
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/infiniteskins.git
+
+Server Bash to update all code:
+
+cd /var/www/infiniteskins
+git pull origin main
